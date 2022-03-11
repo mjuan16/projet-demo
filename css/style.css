@@ -13,9 +13,11 @@ body {
 }
 .presentation h1 {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: bold;
   text-align: center;
+  font-size: 40px;
+  font-style: italic;
 }
 .presentation p {
   text-align: center;
@@ -101,6 +103,12 @@ header {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.navbar img {
+   
+  width: 60%;
+  max-width: 100px;
+
+}
 @media (min-width: 700px) {
   .presentation .logo__img {
     width: 50%;
@@ -110,7 +118,7 @@ header {
     justify-content: center;
   }
   .presentation h1 {
-    font-size: 40px;
+    font-size: 55px;
   }
   .presentation p {
     width: 70%;
@@ -189,6 +197,12 @@ header {
   .navbar {
     justify-content: center;
   }
+  .navbar img {
+   
+    width: 80%;
+    max-width: 100px;
+  
+}
 }
 .navbar {
   background:black;
@@ -200,15 +214,13 @@ header {
   width:100%;
   ;
 }
-.navbar img {
-   
-    width: 17%;
-    max-width: 100px;
-  
-}
+
 .navbar a {
 }
 footer {
   display: flex;
   justify-content: center;
+}
+*{
+  scroll-behavior: smooth;
 }
