@@ -223,6 +223,8 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-top: 5vh;
+  font-size: small;
 }
 *{
   scroll-behavior: smooth;
